@@ -7,7 +7,7 @@
 setuptools<82
 
 # Core
-django==4.2.81
+django==4.2.8
 python-dotenv==1.0.0
 str2bool==1.1
 
