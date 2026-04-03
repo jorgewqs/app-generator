@@ -1,5 +1,13 @@
+# Setuptools: Critical Fix for Recent Environments (Setuptools 82+).
+# As of February 2026, setuptools version 82.0.0 and newer have 
+# officially removed pkg_resources. Or run command if Linux (distro based in Debian)
+# $ sudo apt install --reinstall python3-pkg-resources python3-setuptools
+
+# Setuptools
+setuptools<82
+
 # Core
-django==4.2.8
+django==4.2.81
 python-dotenv==1.0.0
 str2bool==1.1
 
